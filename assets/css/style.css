@@ -1,0 +1,135 @@
+.my-fixed-bg{
+    background-image: url('../img/wall1.gif');
+    background-position: center center;
+    background-size: cover;
+    background-attachment: fixed;
+    margin-top:0;
+}
+
+.fixed {
+  position: fixed;
+  padding-right: 15px;
+  padding-left: 15px;
+  margin-right: auto;
+  margin-left: auto;
+  width: 100%;
+}
+
+.algo-font{
+    font-family: 'VT323', monospace;
+}
+
+.rhythm-font{
+    font-family: 'Pacifico', cursive;
+}
+
+/*.rhythm-txt{
+    transition: all 0.5s 1s;
+    opacity: 0;
+}*/
+
+/*for typed js blinking cursor*/
+
+.typed-cursor{
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+@keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-webkit-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+@-moz-keyframes blink{
+    0% { opacity:1; }
+    50% { opacity:0; }
+    100% { opacity:1; }
+}
+/*end blinking cursor*/
+
+.heading {
+            color: white;
+            text-shadow: 0 0 .313em #fff, 0 0 .625em #fff
+        }
+.hideIt {
+    opacity: 0
+}
+
+.showIt {
+    opacity: 1 !important;
+    -webkit-transition: all .7s ease-in-out;
+    -moz-transition: all .7s ease-in-out;
+    -o-transition: all .7s ease-in-out;
+    -ms-transition: all .7s ease-in-out;
+    transition: all .7s ease-in-out
+}
+.flip-clock-label{
+    font-family: 'VT323', monospace;
+    font-size: 25px;
+}
+body .flip-clock-wrapper {
+    margin: 0 auto;
+    width: 55%;
+}
+
+.card_ {
+visibility:hidden;
+max-width:800px;
+-webkit-transform-origin:0 0 0;
+transform-origin:0 0 0;
+border-radius:5px;
+-webkit-transform-style:preserve-3d;
+transform-style:preserve-3d;
+-webkit-transform:translateZ(0) rotate3d(1,0,0,90deg);
+transform:translateZ(0) rotate3d(1,0,0,90deg);
+margin:25px auto;
+padding:10px;
+}
+
+.morph-section {
+  width: 400px;
+  height: 400px;
+
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -200px;
+  margin-left: -200px;
+  font-family: monospace;
+  color: #fff;
+}
+
+.info {
+  font-family: monospace;
+  position: absolute;
+  line-height: 20px;
+  font-size: 14px;
+  left: 20px;
+  bottom: 20px;
+  color: #fff;
+}
+
+a {
+  color: #f9f9f9;
+}
+
+.btn-white{
+    color:#fff !important;
+}
+
+.vcenter{
+    display: inline-block;
+    vertical-align: middle;
+    height: 100%;
+}
+
+.logo-img{
+    max-height: 11vw;
+    vertical-align: middle;
+}
