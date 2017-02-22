@@ -38,11 +38,9 @@
         <!-- Brand and toggle get grouped for better mobile display -->
         <div class="navbar-header">
           <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#navigation-example-2"> <span class="sr-only">Toggle navigation</span>
- <span class="icon-bar"></span>
-
-            <span
-            class="icon-bar"></span> <span class="icon-bar"></span>
-
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
+             <span class="icon-bar"></span>
           </button> <a href="#">
            <div class="logo-container">
                 <div class="logo">
@@ -58,18 +56,12 @@
         <!-- Collect the nav links, forms, and other content for toggling -->
         <div class="collapse navbar-collapse" id="navigation-example-2">
           <ul class="nav navbar-nav navbar-right">
-            <li> <a href="index.html" class="btn btn-fill">Home</a>
+            <li> <a href="index.html" class="btn btn-fill">Home</a></li>
+            <!-- <li> <a href="events.html" class="btn btn-simple btn-white">Events</a> </li>
 
-            </li>
-            <!-- <li> <a href="events.html" class="btn btn-simple btn-white">Events</a>
+            <li> <a href="gallery.html" class="btn btn-simple btn-white">Gallery</a> </li>-->
 
-            </li>
-            <li> <a href="gallery.html" class="btn btn-simple btn-white">Gallery</a> -->
-
-            </li>
-            <li> <a href="contact.html" class="btn btn-simple btn-white">Contact Us</a>
-
-            </li>
+            <li> <a href="contact.html" class="btn btn-simple btn-white">Contact Us</a></li>
           </ul>
         </div>
         <!-- /.navbar-collapse -->
@@ -124,11 +116,9 @@
                 <br/>
                 <div>	<a data-target="#hiddenDoor" href="javascript: void(0);" data-toggle="collapse"
                   class="btn btn-fill"><i class="fa fa-terminal"></i></a>
-</a>
                   <div id="hiddenDoor"
                   class="collapse">
-                    <div>	<pre class="space-top">
-									</pre>
+                    <div>	<pre class="space-top"></pre>
 
                       <p id="anim1" class="space-top">Yeaa! you found the treasure!</p>
                       <!-- <a href="jsterm/index.html" class="btn btn-fill btn-positive">Click here to know more</a> -->
@@ -246,29 +236,6 @@
           		dots: false,
           	});
           	owl.trigger('play.owl.autoplay',[1000]);
-          });
-        </script>
-        <script type="text/javascript">
-          document.addEventListener("DOMContentLoaded", function(event) {
-          	// var stickyOffset = $('.sticky').offset().top;
-          	var stickyHeight = $('.my-fixed-bg').height();
-          	stickyHeight -= (stickyHeight/4);
-              $(window).scroll(function(){
-              var sticky = $('.sticky'),
-                scroll = $(window).scrollTop();
-
-              if (scroll > stickyHeight){
-          		sticky.removeClass('navbar-ct-transparent');
-          		// sticky.removeClass('navigation-example');
-          		sticky.addClass('navbar-ct-danger');
-          		// console.log(scroll + " " + stickyHeight);
-          	}
-              else{
-          		sticky.removeClass('navbar-ct-danger');
-          		// sticky.addClass('navigation-example');
-          		sticky.addClass('navbar-ct-transparent');
-          	}
-              });
           });
         </script>
   </body>
