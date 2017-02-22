@@ -355,8 +355,16 @@
   margin-top: 40px;
   margin-bottom: 10px; }
 .contact-us .big-map {
-  height: 300px;
-  width: 100%; }
+  position: relative;
+  padding-bottom: 25%;  /* aspect ratio */
+  height: 0;
+  overflow: hidden; }
+.contact-us .big-map iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100% !important;
+  height: 100% !important; }
 .contact-us .footer-demo {
   background-color: #f4f3ef; }
 
