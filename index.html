@@ -140,10 +140,7 @@
             <div class="clock"></div>
             <script type="text/javascript">
               document.addEventListener("DOMContentLoaded", function(event) {
-              						var date = new Date(2017, 02, 25);
-              					    var now = new Date();
-              					    var diff = (date.getTime()/1000) - (now.getTime()/1000);
-              					    var clock = $('.clock').FlipClock(diff,{
+              					    var clock = $('.clock').FlipClock(0,{
               					        clockFace: 'DailyCounter',
               					        countdown: true,
               							showSeconds: true,
